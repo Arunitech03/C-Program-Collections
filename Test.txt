@@ -1,1 +1,63 @@
-GIt Addition
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+E:\Workplace\gittest>git init
+Initialized empty Git repository in E:/Workplace/gittest/.git/
+
+E:\Workplace\gittest>git add .
+
+E:\Workplace\gittest>git commit -m "1st commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'malar@malarvizhi.(none)')
+
+E:\Workplace\gittest>git config --global user.email=arunitech03@gmail.com
+
+E:\Workplace\gittest>git config --global user.name=arunitech03
+error: invalid key: user.name=arunitech03
+
+E:\Workplace\gittest>git config --global user.name "arunitech03"
+
+E:\Workplace\gittest>git commit -m "1st commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'malar@malarvizhi.(none)')
+
+E:\Workplace\gittest>git config --global user.email "arunitech03@gmail.com"
+
+E:\Workplace\gittest>git config --global user.name "arunitech03"
+
+E:\Workplace\gittest>git commit -m "1st commit"
+[master (root-commit) d78564a] 1st commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+E:\Workplace\gittest>git remote add origin https://github.com/Arunitech03/C-Prog
+ram-Collections.git
+
+E:\Workplace\gittest>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Arunitech03/C-Program-Collections.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
